@@ -1,0 +1,131 @@
+#MainContainer{
+  background-image: url('https://img.freepik.com/free-photo/spring-floral-border-background-green-with-leaf-watercolor-illustration_53876-126807.jpg?w=1060&t=st=1667973164~exp=1667973764~hmac=33cef0c90bee715de97395dd28b46db5813efb143b6d6b72dd6a1beda9fff0e0');
+  background-size: cover;
+  height: 850px;
+}
+#srcM{
+    min-width: 400px;
+    max-width: 50%;
+    margin: auto;
+    padding-top: 2rem;
+    
+}
+.srcc{
+  text-align: center
+
+}
+#cardContainer1{
+  width: 100%;
+  height: 100px;
+  
+}
+#cardContainer{
+  width: 85%;
+  background-color: transparent;
+  height: auto;
+  overflow-x: scroll;
+ 
+  
+}
+#TownDiv{
+    width: 45%;
+    height: 15rem;
+    background-color: rgba(27, 72, 95,.2);
+    border: 5px solid rgba(27, 72, 95,.4);
+    margin: 2%;
+    min-width: 410px;
+    float: left;
+    text-align: center;
+    
+}
+#WhethMainDiv{
+    width: 45%;
+    height: 15rem;
+    background-color: rgba(27, 72, 95, 0.2);
+    border: 5px solid rgba(27, 72, 95,.4);
+    margin: 2%;
+    min-width: 410px;
+    float: left;
+    text-align: center;
+
+}
+@media screen and (max-width: 1000px) {
+    #WhethMainDiv{
+        width: 90%;
+      
+    }
+    #TownDiv{
+        width: 90%;
+        
+
+    }
+  }
+  #TownHead{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: rgb(136, 53, 53);
+    background-color: transparent;
+  }
+  #time1{
+    text-align: right;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: rgb(136, 53, 53);
+  }
+  #time2{
+    text-align: right;
+    margin-right: 1rem;
+    margin-top: -.5rem;
+    font-weight: bold;
+    color: rgb(136, 53, 53);
+  }
+  
+#whethS{
+  text-align: left;
+  margin-left: 1rem;
+}
+.card-body {
+  background-color: rgb(136, 53, 53,.2);
+  border: 5px solid rgba(136, 53, 53,.4);
+  min-height: 200px;
+  min-width: 300px;
+  margin-right: 5px;
+  text-align: center;
+}
+#date1{
+  color: #112a40ae ;
+  font-weight: bold;
+}
+#Icon{
+  width: 100px;
+  height: 100px;
+  margin-top: -4rem;
+}
+#TempHead{
+  font-size: 30px;
+  margin-top: -2rem;
+    font-weight: bold;
+    color: rgb(136, 53, 53);
+    background-color: transparent;
+
+}
+#cardHead{
+  text-align: right;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(27, 72, 95,.9);
+}
+#cardBB{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(136,53,53,.9);
+
+}
+#cardBB1{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(136,53,53,.9);
+  margin-top: -1rem;
+
+}
